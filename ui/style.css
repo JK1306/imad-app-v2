@@ -20,3 +20,23 @@ body {
     height: 200px;
 }
 
+
+
+h1{
+    font-family:sans-serif;
+    background-color: black;
+    padding:50px;
+    color:white;
+    
+}
+
+div{
+    color:red;
+    
+    font-size:110%;
+}
+
+img{
+    position:relative;
+    top:100px;
+}
