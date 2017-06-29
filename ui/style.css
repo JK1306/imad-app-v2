@@ -31,9 +31,8 @@ h1{
 }
 
 div{
-    color:red;
+    float :left;
     
-    font-size:110%;
 }
 
 img{
