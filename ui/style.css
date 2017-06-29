@@ -32,8 +32,8 @@ h1{
 
 div{
     float :left;
+    width:350px;
     
-    padding:10px;
 }
 
 img{
