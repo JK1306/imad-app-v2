@@ -13,7 +13,7 @@ var counter;
 app.get('/ui/des.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'des.html'));
   counter+=1;
-  console.log(counter);
+  console.log('counter');
 });
 
 app.get('/ui/style.css', function (req, res) {
@@ -24,7 +24,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('ui/main.js', function (req, res) {
+app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
