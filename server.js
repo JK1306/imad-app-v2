@@ -11,9 +11,9 @@ app.get('/', function (req, res) {
 
 var counter;
 app.get('/ui/des.html', function (req, res) {
-    counter+=1;
-    console.log(counter);
   res.sendFile(path.join(__dirname, 'ui', 'des.html'));
+  counter+=1;
+  console.log(counter);
 });
 
 app.get('/ui/style.css', function (req, res) {
