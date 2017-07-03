@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 var counter;
 app.get('/ui/des.html', function (req, res) {
     counter+=1;
-    console.log(counter.toString());
+    console.log(counter);
   res.sendFile(path.join(__dirname, 'ui', 'des.html'));
 });
 
