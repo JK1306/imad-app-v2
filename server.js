@@ -9,8 +9,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-
+var counter;
 app.get('/ui/des.html', function (req, res) {
+    counter+=1;
+    console.log(counter.toString());
   res.sendFile(path.join(__dirname, 'ui', 'des.html'));
 });
 
