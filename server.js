@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 var counter=0;
-app.get('/ui/forum.html', function (req, res) {
+app.get('/ui/forum', function (req, res) {
   counter=counter+1; 
   console.log('counter');
 });
