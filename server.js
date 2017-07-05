@@ -10,10 +10,13 @@ app.get('/', function (req, res) {
 });
 
 var counter=0;
+app.get('/ui/forum.html', function (req, res) {
+  counter=counter+1; 
+  console.log('counter');
+});
+
 app.get('/ui/des.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'des.html'));
-  counter+=1;
-  console.log('counter');
 });
 
 app.get('/ui/style.css', function (req, res) {
